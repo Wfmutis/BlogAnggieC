@@ -1,2 +1,2 @@
 # BlogAnggieC
-Es una página de un blog
+Mundo Paralelo, Blog Personal 
