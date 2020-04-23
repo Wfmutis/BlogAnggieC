@@ -1,0 +1,147 @@
+*{
+  margin:0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: black;
+}
+
+body header{
+  color: white;
+  font-size: 35px;
+  text-shadow: 5px 10px 4px navy;
+  text-align: center;
+  padding: 35px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.Menu-principal{
+  margin-bottom: 40px;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+  background-color: silver;
+}
+
+.Menu-principal .contenedor ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.Menu-principal .contenedor ul li{
+  display: inline-block;
+}
+
+.Menu-principal .contenedor ul li a{
+  display: inline-block;
+  padding: 30px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.Menu-principal .contenedor ul li a:hover{
+ color: #8b919c;
+}
+
+.contenedores{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+body .contenedor1{
+  width: 48%;
+  border: 1px solid white;
+}
+
+body .parte1 h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body .contenedor1 .parte1 img{
+  width: 100%;
+}
+
+body .contenedor2{
+  width: 48%;
+  border: 1px solid white;
+}
+
+body .parte2 h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body .contenedor2 .parte2 img{
+  width: 100%;
+}
+
+@media all and (max-width:1344px){
+  .contenedores .contenedor1{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contenedores .contenedor2{
+    width: 100%;
+  }
+}
+
+/* PIE DE PÁGINAS */
+.top-footer{
+  background-color: #193441;
+  height: 25px;
+}
+
+.center-footer{
+  background-color: #152d37;
+}
+
+.center-footer .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.center-footer .contenedor .widget{
+  margin-top: 10px;
+}
+
+.center-footer .contenedor .widget img{
+  height: 50px;
+}
+
+.center-footer .contenedor .widget a:hover img{
+    height: 70px;
+}
+
+.bottom-footer{
+  background-color: #193441;
+  height: 25px;
+}
+
+.bottom-footer p{
+  font-size: 16px;
+  color: #7a7a7a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* FIN PIE DE PÁGINAS */
